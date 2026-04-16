@@ -74,12 +74,39 @@ The hallucinations in Multimodal Large Language Models (MLLMs) are systemic issu
 
 ## 📚 Survey
 
-1. [A Survey on Hallucination in Large Vision-Language Models](https://arxiv.org/pdf/2402.00253.pdf) (2024.02.01)
-2. [Hallucination of Multimodal Large Language Models: A Survey](https://arxiv.org/pdf/2404.18930) (2024.04.29)
-3. [Unveiling Hallucination in Text, Image, Video, and Audio Foundation Models: A Comprehensive Survey](https://arxiv.org/pdf/2405.09589) (2024.05.20)
-4. [Benchmark Evaluations, Applications, and Challenges of Large Vision Language Models: A Survey](https://arxiv.org/pdf/2501.02189) (2025.01.04)
-5. [A Survey of Multimodal Hallucination Evaluation and Detection](https://arxiv.org/pdf/2507.19024) (2025.07.25)
-6. [Review of Hallucination Understanding in Large Language and Vision Models](https://arxiv.org/pdf/2510.00034) (2025.09.26)
+### I. Foundations and Comprehensive Surveys of Hallucination in LLMs
+1. [Survey of Hallucination in Natural Language Generation](https://arxiv.org/pdf/2202.03629.pdf) (2022.02.07)
+2. [Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models](https://arxiv.org/pdf/2309.01219.pdf) (2023.09.03)
+3. [A Survey of Hallucination in Large Foundation Models](https://arxiv.org/pdf/2309.05922.pdf) (2023.09.11)
+4. [Cognitive Mirage: A Review of Hallucinations in Large Language Models](https://arxiv.org/pdf/2309.06794.pdf) (2023.09.13)
+5. [LightHouse: A Survey of AGI Hallucination](https://arxiv.org/pdf/2401.06792.pdf) (2024.01.08)
+6. [Loki's Dance of Illusions: A Comprehensive Survey of Hallucination in Large Language Models](https://arxiv.org/pdf/2507.02870.pdf) (2025.07.06)
+7. [Large Language Models Hallucination: A Comprehensive Survey](https://arxiv.org/pdf/2510.06265.pdf) (2025.10.05)
+
+### II. Core Surveys on Hallucination in MLLMs/VLMs
+8. **[A Survey on Hallucination in Large Vision-Language Models](https://arxiv.org/pdf/2402.00253.pdf) (2024.02.01)**
+9. **[Hallucination of Multimodal Large Language Models: A Survey](https://arxiv.org/pdf/2404.18930.pdf) (2024.04.29)**
+10. **[Unveiling Hallucination in Text, Image, Video, and Audio Foundation Models: A Comprehensive Survey](https://arxiv.org/pdf/2405.09589.pdf) (2024.05.20)**
+11. [From Perception to Cognition: A Survey of Vision-Language Interactive Reasoning in Multimodal Large Language Models](https://arxiv.org/pdf/2509.25373.pdf) (2025.09.29)
+12. **[Review of Hallucination Understanding in Large Language and Vision Models](https://arxiv.org/pdf/2510.00034.pdf) (2025.09.26)**
+
+### III. Hallucination Evaluation, Detection, and Benchmarks
+13. **[Benchmark Evaluations, Applications, and Challenges of Large Vision Language Models: A Survey](https://arxiv.org/pdf/2501.02189.pdf) (2025.01.04)**
+14. **[A Survey of Multimodal Hallucination Evaluation and Detection](https://arxiv.org/pdf/2507.19024.pdf) (2025.07.25)**
+
+### IV. Hallucination Mitigation, RAG Augmentation, and Agents
+15. [A Comprehensive Survey of Hallucination Mitigation Techniques in Large Language Models](https://arxiv.org/pdf/2401.01313.pdf) (2024.01.02)
+16. [Towards Trustworthy Retrieval Augmented Generation for Large Language Models: A Survey](https://arxiv.org/pdf/2502.06872.pdf) (2025.02.08)
+17. [Ask in Any Modality: A Comprehensive Survey on Multimodal Retrieval-Augmented Generation](https://arxiv.org/pdf/2502.08826.pdf) (2025.02.12)
+18. [LLM-based Agents Suffer from Hallucinations: A Survey of Taxonomy, Methods, and Directions](https://arxiv.org/pdf/2509.18970.pdf) (2025.09.26)
+19. [Mitigating Hallucination in Large Language Models (LLMs): An Application-Oriented Survey on RAG, Reasoning, and Agentic Systems](https://arxiv.org/pdf/2510.24476.pdf) (2025.10.28)
+20. [Attribution Techniques for Mitigating Hallucinated Information in RAG Systems: A Survey](https://arxiv.org/pdf/2601.19927.pdf) (2026.01.10)
+
+### V. Domain-Specific Applications and Novel Perspectives
+21. [A Survey on Large Language Model Hallucination via a Creativity Perspective](https://arxiv.org/pdf/2402.06647.pdf) (2024.02.02)
+22. [A Survey of LLM-based Agents in Medicine: How far are we from Baymax?](https://arxiv.org/pdf/2502.11211.pdf) (2025.02.16)
+23. [Medical Hallucinations in Foundation Models and Their Impact on Healthcare](https://arxiv.org/pdf/2503.05777.pdf) (2025.02.26)
+
 
 ---
 
