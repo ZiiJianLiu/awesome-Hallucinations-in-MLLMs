@@ -34,16 +34,16 @@
   <img src="./method_tree.png" width="85%" alt="Methodology Distribution Tree" />
 </p>
 
-The rapid growth of research on Multimodal Large Language Model (MLLM) hallucinations. *(Updated to March 2026)*
+The rapid growth of research on Multimodal Large Language Model (MLLM) hallucinations. *(Updated to July 23, 2026)*
 
 | Year | Mitigation Methods | Evaluation Benchmarks | Surveys & Reviews | **Total Papers** |
 | :---: | :---: | :---: | :---: | :---: |
 | **2018** | 0 | 1 | 0 | **1** |
-| **2023** | 17 | 11 | 0 | **28** |
-| **2024** | 96 | 43 | 3 | **142** |
-| **2025** | 145 | 22 | 3 | **170** |
-| **2026** | 18 | 2 | 0 | **20** |
-| **Total**| **276** | **79** | **6** | **361** |
+| **2023** | 17 | 17 | 0 | **34** |
+| **2024** | 96 | 50 | 3 | **149** |
+| **2025** | 136 | 23 | 3 | **162** |
+| **2026** | 127 | 27 | 1 | **155** |
+| **Total**| **376** | **118** | **7** | **501** |
 
 > 💡 **Tip:** The year represents the initial arXiv publication date or the conference acceptance date. The statistics charts are auto-generated. You can reproduce or update them by running our python scripts using Matplotlib.
 
@@ -81,31 +81,39 @@ The hallucinations in Multimodal Large Language Models (MLLMs) are systemic issu
 4. [Cognitive Mirage: A Review of Hallucinations in Large Language Models](https://arxiv.org/pdf/2309.06794.pdf) (2023.09.13)
 5. [LightHouse: A Survey of AGI Hallucination](https://arxiv.org/pdf/2401.06792.pdf) (2024.01.08)
 6. [Loki's Dance of Illusions: A Comprehensive Survey of Hallucination in Large Language Models](https://arxiv.org/pdf/2507.02870.pdf) (2025.07.06)
-7. [Large Language Models Hallucination: A Comprehensive Survey](https://arxiv.org/pdf/2510.06265.pdf) (2025.10.05)
+7. [A Comprehensive Taxonomy of Hallucinations in Large Language Models](https://arxiv.org/pdf/2508.01781) (2025.08.03)
+8. [Large Language Models Hallucination: A Comprehensive Survey](https://arxiv.org/pdf/2510.06265.pdf) (2025.10.05)
+9. [A Concise Review of Hallucinations in LLMs and their Mitigation](https://arxiv.org/pdf/2512.02527) (2025.12.02)
 
 ### II. Core Surveys on Hallucination in MLLMs/VLMs
-8. **[A Survey on Hallucination in Large Vision-Language Models](https://arxiv.org/pdf/2402.00253.pdf) (2024.02.01)**
-9. **[Hallucination of Multimodal Large Language Models: A Survey](https://arxiv.org/pdf/2404.18930.pdf) (2024.04.29)**
-10. **[Unveiling Hallucination in Text, Image, Video, and Audio Foundation Models: A Comprehensive Survey](https://arxiv.org/pdf/2405.09589.pdf) (2024.05.20)**
-11. [From Perception to Cognition: A Survey of Vision-Language Interactive Reasoning in Multimodal Large Language Models](https://arxiv.org/pdf/2509.25373.pdf) (2025.09.29)
-12. **[Review of Hallucination Understanding in Large Language and Vision Models](https://arxiv.org/pdf/2510.00034.pdf) (2025.09.26)**
+10. **[A Survey on Hallucination in Large Vision-Language Models](https://arxiv.org/pdf/2402.00253.pdf) (2024.02.01)**
+11. **[Hallucination of Multimodal Large Language Models: A Survey](https://arxiv.org/pdf/2404.18930.pdf) (2024.04.29)**
+12. **[Unveiling Hallucination in Text, Image, Video, and Audio Foundation Models: A Comprehensive Survey](https://arxiv.org/pdf/2405.09589.pdf) (2024.05.20)**
+13. **[Review of Hallucination Understanding in Large Language and Vision Models](https://arxiv.org/pdf/2510.00034.pdf) (2025.09.26)**
+14. [From Perception to Cognition: A Survey of Vision-Language Interactive Reasoning in Multimodal Large Language Models](https://arxiv.org/pdf/2509.25373.pdf) (2025.09.29)
+15. **[Distorted or Fabricated? A Survey on Hallucination in Video LLMs](https://arxiv.org/pdf/2604.12944) (2026.04.14)**
 
 ### III. Hallucination Evaluation, Detection, and Benchmarks
-13. **[Benchmark Evaluations, Applications, and Challenges of Large Vision Language Models: A Survey](https://arxiv.org/pdf/2501.02189.pdf) (2025.01.04)**
-14. **[A Survey of Multimodal Hallucination Evaluation and Detection](https://arxiv.org/pdf/2507.19024.pdf) (2025.07.25)**
+16. **[Benchmark Evaluations, Applications, and Challenges of Large Vision Language Models: A Survey](https://arxiv.org/pdf/2501.02189.pdf) (2025.01.04)**
+17. **[A Survey of Multimodal Hallucination Evaluation and Detection](https://arxiv.org/pdf/2507.19024.pdf) (2025.07.25)**
+18. [Hallucination to Truth: A Review of Fact-Checking and Factuality Evaluation in Large Language Models](https://arxiv.org/pdf/2508.03860) (2025.08.05)
 
 ### IV. Hallucination Mitigation, RAG Augmentation, and Agents
-15. [A Comprehensive Survey of Hallucination Mitigation Techniques in Large Language Models](https://arxiv.org/pdf/2401.01313.pdf) (2024.01.02)
-16. [Towards Trustworthy Retrieval Augmented Generation for Large Language Models: A Survey](https://arxiv.org/pdf/2502.06872.pdf) (2025.02.08)
-17. [Ask in Any Modality: A Comprehensive Survey on Multimodal Retrieval-Augmented Generation](https://arxiv.org/pdf/2502.08826.pdf) (2025.02.12)
-18. [LLM-based Agents Suffer from Hallucinations: A Survey of Taxonomy, Methods, and Directions](https://arxiv.org/pdf/2509.18970.pdf) (2025.09.26)
-19. [Mitigating Hallucination in Large Language Models (LLMs): An Application-Oriented Survey on RAG, Reasoning, and Agentic Systems](https://arxiv.org/pdf/2510.24476.pdf) (2025.10.28)
-20. [Attribution Techniques for Mitigating Hallucinated Information in RAG Systems: A Survey](https://arxiv.org/pdf/2601.19927.pdf) (2026.01.10)
+19. [A Comprehensive Survey of Hallucination Mitigation Techniques in Large Language Models](https://arxiv.org/pdf/2401.01313.pdf) (2024.01.02)
+20. [Towards Trustworthy Retrieval Augmented Generation for Large Language Models: A Survey](https://arxiv.org/pdf/2502.06872.pdf) (2025.02.08)
+21. [Ask in Any Modality: A Comprehensive Survey on Multimodal Retrieval-Augmented Generation](https://arxiv.org/pdf/2502.08826.pdf) (2025.02.12)
+22. [LLM-based Agents Suffer from Hallucinations: A Survey of Taxonomy, Methods, and Directions](https://arxiv.org/pdf/2509.18970.pdf) (2025.09.26)
+23. [Mitigating Hallucination in Large Language Models (LLMs): An Application-Oriented Survey on RAG, Reasoning, and Agentic Systems](https://arxiv.org/pdf/2510.24476.pdf) (2025.10.28)
+24. [Attribution Techniques for Mitigating Hallucinated Information in RAG Systems: A Survey](https://arxiv.org/pdf/2601.19927.pdf) (2026.01.10)
+25. [Explainable Hallucination Mitigation in Large Language Models: A Survey](https://doi.org/10.1002/widm.70110) (2026.07.01)
 
 ### V. Domain-Specific Applications and Novel Perspectives
-21. [A Survey on Large Language Model Hallucination via a Creativity Perspective](https://arxiv.org/pdf/2402.06647.pdf) (2024.02.02)
-22. [A Survey of LLM-based Agents in Medicine: How far are we from Baymax?](https://arxiv.org/pdf/2502.11211.pdf) (2025.02.16)
-23. [Medical Hallucinations in Foundation Models and Their Impact on Healthcare](https://arxiv.org/pdf/2503.05777.pdf) (2025.02.26)
+26. [A Survey on Large Language Model Hallucination via a Creativity Perspective](https://arxiv.org/pdf/2402.06647.pdf) (2024.02.02)
+27. [A Survey of LLM-based Agents in Medicine: How far are we from Baymax?](https://arxiv.org/pdf/2502.11211.pdf) (2025.02.16)
+28. [Medical Hallucinations in Foundation Models and Their Impact on Healthcare](https://arxiv.org/pdf/2503.05777.pdf) (2025.02.26)
+29. [A Systematic Literature Review of Code Hallucinations in LLMs](https://arxiv.org/pdf/2511.00776) (2025.11.02)
+30. [Trustworthiness Evaluation of Medical Vision-Language Models: A Scoping Review of Robustness, Grounding, Hallucination, and Uncertainty](https://doi.org/10.2196/preprints.102330) (2026.05.25)
+31. [Phantom References: Hallucinated Citations That Survive Peer Review at Top-Tier Conferences](https://arxiv.org/pdf/2607.00738) (2026.07.01)
 
 
 ---
@@ -191,6 +199,32 @@ The hallucinations in Multimodal Large Language Models (MLLMs) are systemic issu
 | [Mitigating Object and Action Hallucinations](https://arxiv.org/pdf/2512.04356v1) | arXiv'25 | 2025.12.04 | **Contrastive Alignment**: Constructs multimodal action and object contrastive data via self-augmentation for alignment training. |
 | [Cost-efficient Difficulty-aware Preference Optimization](https://arxiv.org/pdf/2601.00623v1) | arXiv'26 | 2026.01.02 | **Difficulty-Aware DPO**: Introduces a difficulty-aware mechanism for low-cost preference optimization, prioritizing hard hallucination samples. |
 | [Beyond Superficial Unlearning](https://arxiv.org/pdf/2601.16527v1) | arXiv'26 | 2026.01.23 | **Robust Unlearning**: Proposes a sharpness-aware unlearning mechanism to thoroughly erase deep associations causing hallucinations in model parameters. |
+| [IRIS](https://arxiv.org/pdf/2602.01769) | arXiv'26 | 2026.02.02 | **On-Policy Preference Optimization**: Sifts self-generated pairs with continuous implicit rewards that expose fine-grained modal competition. |
+| [Seeing Through the Chain](https://arxiv.org/pdf/2602.03380) | arXiv'26 | 2026.02.03 | **CoT Preference Optimization**: Compresses redundant reasoning tokens and applies contrastive preference optimization to hallucination-inducing traces. |
+| [HII-DPO](https://arxiv.org/pdf/2602.10425) | arXiv'26 | 2026.02.11 | **Counterfactual Preference Alignment**: Synthesizes scene-conditioned hallucination-inducing images to construct fine-grained preference pairs. |
+| [MIRROR](https://arxiv.org/pdf/2602.18746) | arXiv'26 | 2026.02.21 | **Reflective Supervision**: Trains closed-loop drafting, critique, region verification, and revision with the ReflectV multi-turn dataset. |
+| [CCCaption](https://arxiv.org/pdf/2602.21655) | arXiv'26 | 2026.02.25 | **Dual-Reward Reinforcement Learning**: Jointly rewards visual completeness and penalizes hallucinated sub-caption claims. |
+| [Hallucination-Resistant Multimodal Content Generation](https://doi.org/10.1016/j.inffus.2025.103783) | **Information Fusion'26** | 2026.03 | **Knowledge-Graph Reinforcement Learning**: Grounds multimodal generation in structured knowledge and optimizes graph-based rewards to suppress unsupported content. |
+| [MoD-DPO](https://arxiv.org/pdf/2603.03192) | arXiv'26 | 2026.03.03 | **Modality-Decoupled DPO**: Enforces sensitivity to relevant modalities and invariance to irrelevant audiovisual corruption while debiasing language priors. |
+| [Adaptive Hallucination Alleviation](https://doi.org/10.1609/aaai.v40i32.39955) | **AAAI'26** | 2026.03.14 | **Severity-Guided DPO**: Selects hallucination-oriented samples, assigns severity-specific loss weights, and modulates localized visual attention during HD-DPO. |
+| [EchoBat](https://doi.org/10.1609/aaai.v40i42.40875) | **AAAI'26** | 2026.03.14 | **Audiovisual Preference Optimization**: Builds temporally grounded video preferences from visual and audio evidence and improves supervision with echo-layered keyframe sampling. |
+| [FINER-Tuning](https://arxiv.org/pdf/2603.17662) | arXiv'26 | 2026.03.18 | **Fine-Grained DPO**: Trains on hard negative queries spanning object, attribute, and relation mismatches to reduce subtle hallucinations. |
+| [VRE](https://arxiv.org/pdf/2603.26348) | arXiv'26 | 2026.03.27 | **Self-Evolving Visual Re-Examination**: Learns reflection traces that reactivate late-stage visual verification during long-chain reasoning. |
+| [AVES-DPO](https://arxiv.org/pdf/2604.24395) | arXiv'26 | 2026.04.27 | **Verified Self-Correction DPO**: Builds in-distribution preference pairs through consensus diagnosis and model-native self-correction. |
+| [OSCAR](https://arxiv.org/pdf/2605.00323) | arXiv'26 | 2026.05.01 | **Online Self-Calibration**: Uses tree search and dual-granularity rewards to generate online preference data for iterative DPO. |
+| [UE-DPO](https://arxiv.org/pdf/2605.04874) | arXiv'26 | 2026.05.06 | **Uncertainty-Aware DPO**: Concentrates learning pressure on visually deficient tokens using token-level epistemic uncertainty. |
+| [Stage-wise Preference Optimization](https://arxiv.org/pdf/2605.16411) | arXiv'26 | 2026.05.13 | **Failure-Boundary DPO**: Progressively constructs minimally perturbed preference pairs around spatial, relational, OCR, and false-premise errors. |
+| [Emphasizing Image-Negative Tokens](https://arxiv.org/pdf/2605.21300) | arXiv'26 | 2026.05.20 | **Visual-Dependence Reweighting**: Reweights training tokens by image dependence and filters hallucination-prone samples. |
+| [RC-DPO](https://arxiv.org/pdf/2605.27906) | arXiv'26 | 2026.05.27 | **Reasoning-Conditioned DPO**: Separately optimizes CoT quality by contrasting the same answer under grounded and pruned reasoning traces. |
+| [P²-DPO](https://arxiv.org/pdf/2606.03376) | arXiv'26 | 2026.06.02 | **Perceptual Processing DPO**: Learns on-policy focus-and-enhance preferences with calibration loss for visually causal token generation. |
+| [VGL-DPO](https://doi.org/10.1145/3796715) | **TOMM'26** | 2026.06.24 | **Vision-Guided Lexical DPO**: Reweights positive words by visual relevance and adapts the negative preference loss using lexical importance differences. |
+| [VIGIL](https://arxiv.org/pdf/2606.26387) | arXiv'26 | 2026.06.24 | **Counterfactual Visual Alignment**: Penalizes confidence under masked visual attention to maximize visual information gain during RL post-training. |
+| [ViPSy](https://arxiv.org/pdf/2606.28401) | arXiv'26 | 2026.06.24 | **Vision-Driven Preference Synthesis**: Derives recurring visual cues across aligned image variants and conditions policy-native rollouts on them. |
+| [Reflect-R1](https://arxiv.org/pdf/2606.27922) | arXiv'26 | 2026.06.26 | **Stage-Decoupled Reinforcement Learning**: Trains intuition, evidence verification, and arbitration stages independently for long-video self-correction. |
+| [OPPO](https://arxiv.org/pdf/2606.29805) | arXiv'26 | 2026.06.29 | **Evidence-Strength Preference Optimization**: Orders preference views by visual-evidence strength and adds span- and token-level regularization. |
+| [ADAPT](https://arxiv.org/pdf/2606.31054) | arXiv'26 | 2026.06.30 | **Attention Dynamics Alignment**: Combines cross-attention anchors, online drift correction, and visual-attention-guided DPO. |
+| [CORAL](https://arxiv.org/pdf/2607.03647) | arXiv'26 | 2026.07.04 | **Hard-Negative Contrastive Training**: Penalizes answer invariance under medically plausible but visually incorrect image substitutions. |
+| [Groc-PO](https://arxiv.org/pdf/2607.13712) | arXiv'26 | 2026.07.15 | **Grounded Context Preference Optimization**: Assigns stage-specific preferences to object grounding, contextual grounding, and grounded reasoning. |
 
 </details>
 
@@ -252,11 +286,38 @@ The hallucinations in Multimodal Large Language Models (MLLMs) are systemic issu
 | [Visual Inference-Time Intervention](https://arxiv.org/pdf/2512.03542v1) | arXiv'25 | 2025.12.03 | **Inference-Time Intervention**: Uses real-time feedback from visual features to block text generation inertia during decoding. |
 | [Watch Closely](https://arxiv.org/pdf/2512.19070v1) | arXiv'25 | 2025.12.22 | **Disentangled Decoding**: Decouples attention mechanisms and output probabilities for independent calibration. |
 | [CoFi-Dec](https://arxiv.org/pdf/2512.23453v1) | arXiv'25 | 2025.12.29 | **Coarse-to-Fine Feedback Decoding**: Generates multi-granularity hierarchical feedback to dynamically correct outputs. |
+| [Med-VCD](https://doi.org/10.1016/j.compbiomed.2025.111347) | **Computers in Biology and Medicine'26** | 2026.01 | **Sparse Visual Contrastive Decoding**: Selects visually informed tokens on the fly, removing redundant tokens while retaining critical medical image context. |
 | [Structure-Disrupted Contrastive Decoding](https://arxiv.org/pdf/2601.03500v1) | arXiv'26 | 2026.01.07 | **Structure-Disrupted Contrastive Decoding**: Contrasts the original image with a structure-broken image to highlight entity logic. |
 | [Context-Aware Decoding](https://arxiv.org/pdf/2601.05939v1) | arXiv'26 | 2026.01.09 | **Context-Aware Decoding**: Dynamically adjusts the fusion ratio of visual and language logits based on the generated context length. |
 | [Attention-space Contrastive Guidance](https://arxiv.org/pdf/2601.13707v1) | arXiv'26 | 2026.01.20 | **Attention-Space Contrastive Guidance**: Shifts the scope of the contrastive mechanism from the output logit layer to the attention space. |
 | [Residual Decoding](https://arxiv.org/pdf/2602.01047v1) | arXiv'26 | 2026.02.01 | **Residual Guidance Decoding**: Uses history-aware residual information to guide current token generation for consistency. |
 | [Model-Aware Contrastive Decoding](https://arxiv.org/pdf/2602.01740v1) | arXiv'26 | 2026.02.02 | **Model-Aware Contrastive Decoding**: Uses counterfactual data as negative references to apply adaptive contrastive penalties based on the model's perception tendencies. |
+| [SAKED](https://arxiv.org/pdf/2602.09825) | arXiv'26 | 2026.02.10 | **Stability-Aware Decoding**: Contrasts stability-aware and unstable layers to suppress fluctuating internal knowledge during token generation. |
+| [Mask What Matters](https://arxiv.org/pdf/2602.11737) | arXiv'26 | 2026.02.12 | **Object-Aligned VCD**: Removes the most salient object evidence to create a stronger auxiliary contrastive view. |
+| [Causal Decoding](https://arxiv.org/pdf/2602.21441) | arXiv'26 | 2026.02.24 | **Causal Logit Intervention**: Reshapes decoding dynamics to attenuate spurious dependencies that trigger unsupported object tokens. |
+| [NoLan](https://arxiv.org/pdf/2602.22144) | arXiv'26 | 2026.02.25 | **Language-Prior Suppression**: Dynamically calibrates logits using the distribution gap between multimodal and text-only inputs. |
+| [Entropy-Optimized Contrastive Decoding](https://doi.org/10.1016/j.neucom.2025.132507) | **Neurocomputing'26** | 2026.03 | **Entropy-Optimized Decoding**: Uses uncertainty-aware contrastive calibration to suppress hallucinated actions in vision-language-action generation. |
+| [LEAD](https://arxiv.org/pdf/2603.13366) | arXiv'26 | 2026.03.09 | **Latent Entropy-Aware Decoding**: Switches high-entropy steps to probability-weighted latent embeddings and injects visual anchors. |
+| [VCGD](https://doi.org/10.1609/aaai.v40i24.39089) | **AAAI'26** | 2026.03.14 | **Visual-Clue-Guided Decoding**: Uses a reinforcement-learned caption model as an auxiliary visual clue source and applies image-confidence constraints during generation. |
+| [VGS-Decoding](https://arxiv.org/pdf/2603.20314) | arXiv'26 | 2026.03.19 | **Visual Grounding Score Decoding**: Reweights medical VLM tokens by their probability drop under visual degradation. |
+| [VISAGE](https://arxiv.org/pdf/2603.25711) | arXiv'26 | 2026.03.26 | **Diffusion-Model Decoding Calibration**: Re-ranks parallel token commitments using cross-attention localization consensus. |
+| [Divergent-Thinking Intervention](https://arxiv.org/pdf/2603.27201) | arXiv'26 | 2026.03.28 | **MCoT Step Intervention**: Localizes associative reasoning steps where fabricated content emerges and intervenes during decoding. |
+| [SAGE](https://arxiv.org/pdf/2603.27898) | arXiv'26 | 2026.03.29 | **Sink-Aware Grounded Decoding**: Uses attention-sink triggers and spatial attribution agreement to recalibrate self-attention in real time. |
+| [First Logit Boosting](https://arxiv.org/pdf/2604.00455) | arXiv'26 | 2026.04.01 | **Long-Term Visual Grounding**: Reuses the first-token logit in later predictions to counter visual-information decay. |
+| [HaloProbe](https://arxiv.org/pdf/2604.06165) | arXiv'26 | 2026.04.07 | **Bayesian-Guided Decoding**: Estimates token-level hallucination posteriors from internal and description statistics to guide non-invasive decoding. |
+| [DaID](https://arxiv.org/pdf/2604.10071) | arXiv'26 | 2026.04.11 | **Dual-Anchor Introspective Decoding**: Contrasts a visual-fact Spotlight layer with a text-inertia Shadow layer for token-specific calibration. |
+| [HTDC](https://arxiv.org/pdf/2604.12115) | arXiv'26 | 2026.04.13 | **Hesitation-Triggered Calibration**: Activates visual- and semantic-nullification probes only when intermediate layers disagree. |
+| [DeP](https://arxiv.org/pdf/2604.12424) | arXiv'26 | 2026.04.14 | **Textual-Perturbation Decoding**: Probes phrasing sensitivity to expose language-prior drift and stabilize evidence regions. |
+| [PSRD](https://arxiv.org/pdf/2604.17982) | arXiv'26 | 2026.04.20 | **Phase-Wise Self-Reward Decoding**: Uses a distilled reward model to intervene at semantic-phase boundaries where hallucinations peak. |
+| [PND](https://arxiv.org/pdf/2604.24396) | arXiv'26 | 2026.04.27 | **Positive-and-Negative Decoding**: Contrasts amplified salient evidence with a counterfactual branch whose core-object features are degraded. |
+| [IECD²](https://arxiv.org/pdf/2604.25809) | arXiv'26 | 2026.04.28 | **Dual-Stream Decoding**: Adaptively fuses instruction-driven and evidence-driven token distributions with a symmetric-KL gate. |
+| [SIRA](https://arxiv.org/pdf/2605.14621) | arXiv'26 | 2026.05.14 | **Internal Contrastive Decoding**: Forks a late-layer visual-masked branch from a shared multimodal prefix to isolate language priors. |
+| [CHASD](https://arxiv.org/pdf/2605.23344) | arXiv'26 | 2026.05.22 | **On-Demand Contrastive Decoding**: Triggers localized negative-branch calibration only at uncertain token steps. |
+| [YARD](https://arxiv.org/pdf/2605.31429) | arXiv'26 | 2026.05.29 | **Y-Architecture Register Decoding**: Shares shallow computation and replaces visual patches with register tokens only in an internal degraded branch. |
+| [MGAP](https://arxiv.org/pdf/2606.09859) | arXiv'26 | 2026.05.31 | **Manifold-Guided Projection**: Selectively attenuates inconsistent language-prior subspace components while preserving orthogonal semantics. |
+| [Fox](https://arxiv.org/pdf/2606.27596) | arXiv'26 | 2026.06.25 | **Causal Shortcut Decoding**: Locates risky attention mediators, severs prior-dominant paths, and gates interventional logits against fluent output. |
+| [FADE](https://arxiv.org/pdf/2606.29431) | arXiv'26 | 2026.06.28 | **FFN Attenuation Decoding**: Weakens critical feed-forward layers identified as the source of language-prior dominance. |
+| [CTDD](https://doi.org/10.1007/978-981-92-3432-5_49) | **LNCS'26** | 2026.07.14 | **Cumulative Trend-Divergence Decoding**: Tracks accumulated divergence in token-distribution trends and calibrates generation when visual and linguistic evidence separate. |
 
 </details>
 
@@ -345,7 +406,48 @@ The hallucinations in Multimodal Large Language Models (MLLMs) are systemic issu
 | [VIB-Probe](https://arxiv.org/pdf/2601.05547v1) | arXiv'26 | 2026.01.09 | **Information Bottleneck Probe**: Inserts an information bottleneck probe to compress redundant multimodal mutual information that triggers hallucinations. |
 | [One-shot Optimized Steering](https://arxiv.org/pdf/2601.23041v1) | arXiv'26 | 2026.01.30 | **One-Shot Steering Vector**: Calculates optimal anti-hallucination control vectors via few-shot data and injects them during inference. |
 | [Contrastive Neuron Steering](https://arxiv.org/pdf/2602.00621v1) | arXiv'26 | 2026.01.31 | **Neuron Steering Vector**: Pinpoints individual neurons causing differences and applies vector steering. |
+| [ClueTracer](https://arxiv.org/pdf/2602.02004) | arXiv'26 | 2026.02.02 | **Question-to-Vision Tracing**: Traces task clues through the reasoning path to suppress attention on irrelevant image regions. |
 | [KVSmooth](https://arxiv.org/pdf/2602.04268v1) | arXiv'26 | 2026.02.04 | **Numerical Smoothing**: Applies smoothing operations to the KV Cache to mitigate attention collapse caused by extreme activation values. |
+| [Visual-Aware Attention and Logits Enhancement](https://arxiv.org/pdf/2602.09521) | arXiv'26 | 2026.02.10 | **Task-Relevant Attention Reweighting**: Redistributes attention through vision-text similarity and injects visual scores into beam search. |
+| [Scalpel](https://arxiv.org/pdf/2602.09541) | **WACV'26** | 2026.02.10 | **Attention Manifold Alignment**: Maps hallucination activations toward trusted attention regions with mixture-Gaussian bridges. |
+| [REVIS](https://arxiv.org/pdf/2602.11824) | arXiv'26 | 2026.02.12 | **Sparse Latent Steering**: Orthogonally extracts pure visual directions and intervenes only where deep-layer suppression occurs. |
+| [SAVAA](https://arxiv.org/pdf/2602.13600) | arXiv'26 | 2026.02.14 | **Adaptive Attention Amplification**: Estimates token-level grounding risk and adjusts visual attention strength step by step. |
+| [PADE](https://arxiv.org/pdf/2602.15556) | arXiv'26 | 2026.02.17 | **Positive Attention Dynamics**: Locates core visual regions from internal attention motion and adaptively reinforces them per head. |
+| [HIME](https://arxiv.org/pdf/2602.18711) | arXiv'26 | 2026.02.21 | **Layer-Adaptive Model Editing**: Uses hallucination-insensitivity scores to selectively edit vulnerable layers while preserving knowledge. |
+| [Dynamic Multimodal Activation Steering](https://arxiv.org/pdf/2602.21704) | arXiv'26 | 2026.02.25 | **Context-Aware Activation Steering**: Selects semantic truthfulness vectors and applies them to influential perception heads. |
+| [HulluEdit](https://arxiv.org/pdf/2602.22727) | arXiv'26 | 2026.02.26 | **Orthogonal Subspace Editing**: Separates visual evidence, conflicting priors, and residual uncertainty for single-pass selective suppression. |
+| [AIR](https://arxiv.org/pdf/2602.24041) | arXiv'26 | 2026.02.27 | **Adaptive Visual Reinforcement**: Reduces redundant visual tokens and injects only patches aligned with current hidden states. |
+| [ICLA](https://arxiv.org/pdf/2603.00437) | arXiv'26 | 2026.02.28 | **Cross-Layer Self-Correction**: Adds lightweight layer attention that retrieves preceding hidden states for internal refinement. |
+| [AdaIAT](https://arxiv.org/pdf/2603.04908) | arXiv'26 | 2026.03.05 | **Generated-Text Attention Control**: Adaptively amplifies attention toward grounded prior text while avoiding repetition. |
+| [CIPHER](https://arxiv.org/pdf/2603.10470) | arXiv'26 | 2026.03.11 | **Counterfactual Subspace Removal**: Learns vision-induced hallucination directions from diffusion-edited images and projects hidden states away from them. |
+| [RFI](https://doi.org/10.1609/aaai.v40i5.37320) | **AAAI'26** | 2026.03.14 | **Rectified-Flow Intervention**: Predicts input-specific latent steering vectors with gradient correction in a single forward pass. |
+| [Taming the Phantom](https://doi.org/10.1609/aaai.v40i10.37768) | **AAAI'26** | 2026.03.14 | **Token-Asymmetric Filtering**: Filters intermediate attention maps to isolate dominant phantom text tokens and strengthen visual anchor tokens. |
+| [LTS-FS](https://arxiv.org/pdf/2603.16284) | arXiv'26 | 2026.03.17 | **Attribution-Guided Sparse Steering**: Scales layerwise steering according to causal hallucination-relevance scores. |
+| [Segmentation-Based Attention Entropy](https://arxiv.org/pdf/2603.16558) | arXiv'26 | 2026.03.17 | **Object-Space Attention Adjustment**: Uses segmentation-derived attention entropy to detect risk and recalibrate visual attention. |
+| [Attention Imbalance Rectification](https://arxiv.org/pdf/2603.24058) | arXiv'26 | 2026.03.25 | **Attention Redistribution**: Corrects modality- and token-level attention disparities linked causally to object hallucination. |
+| [CLVA](https://arxiv.org/pdf/2603.25088) | arXiv'26 | 2026.03.26 | **Cross-Layer Visual Anchors**: Reinforces reliable middle-layer visual anchors while suppressing deep-layer regression to noise. |
+| [HIRE](https://arxiv.org/pdf/2603.29405) | arXiv'26 | 2026.03.31 | **Dynamic Representation Editing**: Detects hallucination representations online and removes them with low-cost intermediate-state edits. |
+| [IVE](https://arxiv.org/pdf/2604.01989) | arXiv'26 | 2026.04.02 | **Visual Inertia Intervention**: Promotes newly relevant regions and penalizes persistent localized attention during relational inference. |
+| [MESA](https://arxiv.org/pdf/2604.07914) | arXiv'26 | 2026.04.09 | **Disentangled Latent Steering**: Suppresses hallucination-relevant representations while preserving the native generation distribution. |
+| [DOP-OBC](https://arxiv.org/pdf/2604.09749) | arXiv'26 | 2026.04.10 | **Equitable Attention Control**: Penalizes dominant objects and boosts rare but confidently detected visual regions. |
+| [MPD](https://arxiv.org/pdf/2604.20366) | arXiv'26 | 2026.04.22 | **Selective Parameter Editing**: Disentangles pure hallucination components and updates only the parameters most responsible for them. |
+| [PTI](https://arxiv.org/pdf/2604.25642) | arXiv'26 | 2026.04.28 | **Prefill-Time KV Intervention**: Steers visual keys toward grounded objects and filters noisy values before autoregressive errors accumulate. |
+| [LIME](https://arxiv.org/pdf/2605.01766) | arXiv'26 | 2026.05.03 | **Relevance-Propagation KV Updates**: Optimizes inference-time key-value states to increase contributions from vision and audio tokens. |
+| [CAST](https://arxiv.org/pdf/2605.04641) | arXiv'26 | 2026.05.06 | **Caption-Guided Attention Steering**: Transfers factual caption-query activation patterns into selected visual attention heads. |
+| [HAVAE](https://arxiv.org/pdf/2605.10622) | arXiv'26 | 2026.05.11 | **Vocabulary-Hijacking Intervention**: Excludes semantically collapsed inert tokens and strengthens non-hijacked visual attention heads. |
+| [RVE](https://arxiv.org/pdf/2605.11808) | arXiv'26 | 2026.05.12 | **Relation-Aware Visual Enhancement**: Locates action-sensitive heads and amplifies image regions supporting object interactions. |
+| [MHSA](https://arxiv.org/pdf/2605.14966) | arXiv'26 | 2026.05.14 | **Learned Attention Correction**: Replaces hallucination-prone cross-modal attention with lightweight discriminator-guided corrections. |
+| [ILVAD](https://arxiv.org/pdf/2605.20965) | arXiv'26 | 2026.05.20 | **Inter-Layer Evidence Enhancement**: Builds saliency maps from recurring cross-layer attention and reinforces grounded visual and text tokens. |
+| [Causal Route Gating](https://arxiv.org/pdf/2605.24024) | arXiv'26 | 2026.05.20 | **Decision-Aligned Route Suppression**: Separates visual and textual routes within heads and gates only prior-dominant text paths. |
+| [Region-Aware Attention Recalibration](https://arxiv.org/pdf/2605.24957) | arXiv'26 | 2026.05.24 | **Continuous Attention Penalty**: Uses regional inter-head disagreement to allocate adaptive suppression budgets. |
+| [CAS](https://arxiv.org/pdf/2605.27993) | arXiv'26 | 2026.05.27 | **Context-Preference Steering**: Applies signed residual vectors to control reliance on image, parametric knowledge, and textual context. |
+| [TLVS](https://arxiv.org/pdf/2606.07647) | arXiv'26 | 2026.06.02 | **Token-Level Visual Steering**: Applies calibrated activation directions only at visually sensitive, hallucination-prone generation steps. |
+| [MultiToP](https://arxiv.org/pdf/2606.11792) | arXiv'26 | 2026.06.10 | **Video Token Patching**: Learns to replace unreliable frame tokens with a dynamic global token before language generation. |
+| [QK Product Steering](https://arxiv.org/pdf/2606.20419) | arXiv'26 | 2026.06.18 | **Spectral Weight Editing**: Suppresses dominant singular modes in selected query-key products with a closed-form query update. |
+| [CAI](https://arxiv.org/pdf/2606.29847) | arXiv'26 | 2026.06.29 | **Context-Aware Attention Intervention**: Tilts only token-relevant regions at uncertainty spikes where deeper visual grounding degrades. |
+| [SeeMe](https://arxiv.org/pdf/2607.04163) | arXiv'26 | 2026.07.05 | **Visual Token Engineering**: Restructures noisy visual tokens in three stages while retaining informative evidence. |
+| [Look Before You Speak](https://doi.org/10.1007/978-981-92-3432-5_48) | **LNCS'26** | 2026.07.14 | **Visual Re-Focusing**: Reorients the model toward image evidence before response generation to reduce visually unsupported claims. |
+| [SDPR](https://arxiv.org/pdf/2607.16841) | arXiv'26 | 2026.07.18 | **Perceptual Realignment**: Redistributes saliency, aligns spatial KV-cache structure, and constrains contrastive decoding with visual priors. |
 
 </details>
 
@@ -414,10 +516,25 @@ The hallucinations in Multimodal Large Language Models (MLLMs) are systemic issu
 | [Capturing Gaze Shifts for Guidance](https://arxiv.org/pdf/2510.22067) | arXiv'25 | 2025.11.10 | **Human Gaze Trajectory Input**: Inputs human eye-tracking gaze trajectories as additional features to guide model attention. |
 | [Taming Object Hallucinations](https://arxiv.org/pdf/2511.09228v1) | arXiv'25 | 2025.11.12 | **Atomic Granularity Decomposition**: Requires the model to dismantle answers atomically with attached confidence, using external tools for verification. |
 | [Hallucination Mitigation via Introspection](https://arxiv.org/pdf/2512.02981v1) | arXiv'25 | 2025.12.02 | **Cross-Modal Introspective Debate**: Deploys a network of introspective and external verification agents for interactive debate. |
+| [CRoPS](https://arxiv.org/pdf/2601.00659v1) | arXiv'26 | 2026.01.02 | **Black-Box Universal Framework**: Integrates multiple plug-and-play external training-free methods into a universal suppression framework. |
 | [Ground What You See](https://arxiv.org/pdf/2601.06224) | arXiv'26 | 2026.01.09 | **Diversified External Feedback**: Combines diversity sampling and external feedback loops for black-box optimization at generation. |
 | [Hallucination Begins Where Saliency Drops](https://arxiv.org/pdf/2601.20279v1) | arXiv'26 | 2026.01.28 | **Saliency Interception Gate**: Actively refuses to answer when image saliency calculated by external tools falls below a threshold. |
 | [Countering the Over-Reliance Trap](https://arxiv.org/pdf/2601.22451v1) | arXiv'26 | 2026.01.30 | **Pipeline Self-Verification**: Designs a black-box self-verification pipeline including proposition extraction, re-checking, and logic judgment. |
-| [CRoPS](https://arxiv.org/pdf/2601.00659v1) | arXiv'26 | 2026.01.02 | **Black-Box Universal Framework**: Integrates multiple plug-and-play external training-free methods into a universal suppression framework. |
+| [See It, Say It, Sorted](https://arxiv.org/pdf/2602.21497) | arXiv'26 | 2026.02.25 | **Iterative Evidence Pooling**: Expands a textual visual-evidence pool until each reasoning step is sufficiently grounded. |
+| [GroundCount](https://arxiv.org/pdf/2603.10978) | arXiv'26 | 2026.03.11 | **Detector-Augmented Counting**: Converts object-detector outputs into structured prompts that ground spatial instance counts. |
+| [V3Fusion](https://arxiv.org/pdf/2603.12669) | arXiv'26 | 2026.03.13 | **Diversity-Aware Model Fusion**: Selects complementary VLMs from visual-embedding disagreement and fuses their predictions. |
+| [Multi-Agent Undercover Gaming](https://doi.org/10.1609/aaai.v40i8.37613) | **AAAI'26** | 2026.03.14 | **Counterfactual Multi-Agent Gaming**: Modifies reference images to expose hallucinating agents and replaces consensus-only debate with evidence-based factual verification. |
+| [Kestrel](https://arxiv.org/pdf/2603.16664) | arXiv'26 | 2026.03.17 | **Evidence-Verified Self-Refinement**: Converts grounding-tool outputs into structured evidence and iteratively revises claims after verification. |
+| [Look Twice](https://arxiv.org/pdf/2604.01280) | arXiv'26 | 2026.04.01 | **Prompt-Level Evidence Highlighting**: Marks query-relevant image regions and retrieved text so the model re-attends before answering. |
+| [Dialectic-Med](https://arxiv.org/pdf/2604.11258) | arXiv'26 | 2026.04.13 | **Adversarial Multi-Agent Debate**: Uses proponent, visual-falsification opponent, and mediator agents to challenge unsupported diagnoses. |
+| [R-CoV](https://arxiv.org/pdf/2604.20696) | arXiv'26 | 2026.04.22 | **Region-Aware Chain-of-Verification**: Extracts entities, requests coordinates and region descriptions, then verifies and rewrites the response. |
+| [Multi-Agent Guidance](https://doi.org/10.1109/icassp55912.2026.11463505) | **ICASSP'26** | 2026.05.03 | **Multi-Agent Verification**: Coordinates specialized agents to identify and correct unsupported object and relationship claims. |
+| [TIGER](https://arxiv.org/pdf/2606.00232) | arXiv'26 | 2026.05.29 | **Graph-Based Evidence Routing**: Separately builds observation and claim graphs, ranks unsupported facts, and repairs only high-risk claims. |
+| [Reliability-Aware Multimodal RAG](https://arxiv.org/pdf/2606.15782) | arXiv'26 | 2026.06.14 | **Retrieval-Gated Abstention**: Aggregates external visual-neighbor evidence into reliability scores for answer, caution, or fallback decisions. |
+| [BCEA](https://arxiv.org/pdf/2606.16667) | arXiv'26 | 2026.06.15 | **Conformal Evidence Acquisition**: Re-examines images under a bounded budget before choosing whether to answer or abstain. |
+| [CoEV](https://arxiv.org/pdf/2606.18609) | arXiv'26 | 2026.06.17 | **Counter-Evidence Verification**: Bidirectionally checks medical assertions against localized visual evidence and corrects unsupported claims. |
+| [CEBC](https://aclanthology.org/2026.acl-long.2142/) | **ACL'26** | 2026.07 | **Conformal Evidence-Bounded Editing**: Calibrates an external detector on held-out data and minimally revises unsupported object mentions under explicit risk bounds. |
+| [ESC](https://arxiv.org/pdf/2607.02089) | arXiv'26 | 2026.07.01 | **Emotional Self-Correction**: Uses an external verifier and emotional feedback cues to trigger training-free reflective revision. |
 
 </details>
 
@@ -522,7 +639,32 @@ The hallucinations in Multimodal Large Language Models (MLLMs) are systemic issu
 | [What Color Is It](https://arxiv.org/pdf/2511.13400v2) | arXiv'25 | 2025.11.17 | N/A | Dis | Acc | ❌ | ✅ | ❌ | Text-Interference | ❌ | ✅ |
 | [MVI-Bench](https://arxiv.org/pdf/2511.14159v1) | arXiv'25 | 2025.11.18 | 1,248 | Dis & Gen | MVI-Sensitivity | ✅ | ✅ | ✅ | Misleading Visual | ❌ | ❌ |
 | [PIH](https://arxiv.org/pdf/2601.05201v1) | arXiv'26 | 2026.01.08 | N/A | Gen | PIH Ablation | ✅ | ❌ | ❌ | Prompt-Induced | ✅ | ✅ |
+| [EH-Benchmark](https://doi.org/10.1016/j.inffus.2025.103631) | **Information Fusion'26** | 2026.02 | N/A | Dis & Gen | N/A | ❌ | ❌ | ❌ | Ophthalmology | ❌ | ❌ |
 | [CFHR](https://arxiv.org/pdf/2602.05437v1) | arXiv'26 | 2026.02.05 | N/A | Dis | CFHR | ❌ | ❌ | ❌ | Counterfactual | ❌ | ❌ |
+| [SPD-Faith Bench](https://arxiv.org/pdf/2602.07833) | arXiv'26 | 2026.02.08 | N/A | Dis & Gen | Faithfulness | ✅ | ✅ | ✅ | CoT Faithfulness | ❌ | ❌ |
+| [VLM-UQBench](https://arxiv.org/pdf/2602.09214) | arXiv'26 | 2026.02.09 | 600 | Dis | UQ Sens./Corr. | ✅ | ✅ | ❌ | Multimodal Uncertainty | ✅ | ❌ |
+| [RSHalluEval](https://arxiv.org/pdf/2602.10799) | arXiv'26 | 2026.02.11 | 2,023 | Dis & Gen | Hallucination-Free Rate | ✅ | ✅ | ✅ | Remote Sensing | ❌ | ❌ |
+| [RSHBench](https://arxiv.org/pdf/2603.02754) | arXiv'26 | 2026.03.03 | N/A | Dis & Gen | Acc / Hallucination Rate | ✅ | ✅ | ✅ | Remote Sensing | ✅ | ❌ |
+| [FINER](https://arxiv.org/pdf/2603.17662) | arXiv'26 | 2026.03.18 | N/A | Dis | Acc / Hallucination Rate | ✅ | ✅ | ✅ | Fine-Grained Negatives | ✅ | ❌ |
+| [FREAK](https://arxiv.org/pdf/2603.19765) | arXiv'26 | 2026.03.20 | N/A | Dis | Accuracy | ✅ | ✅ | ✅ | Counter-Commonsense | ✅ | ❌ |
+| [CDH-Bench](https://arxiv.org/pdf/2603.27982) | arXiv'26 | 2026.03.30 | N/A | Dis | CF-Acc/CFAD/CCR/RPD | ✅ | ✅ | ✅ | Commonsense Conflict | ✅ | ❌ |
+| [M2-Verify](https://arxiv.org/pdf/2604.01306) | arXiv'26 | 2026.04.01 | 469,000+ | Dis | Micro-F1 | ✅ | ✅ | ✅ | Scientific Claims | ✅ | ❌ |
+| [DetailVerifyBench](https://arxiv.org/pdf/2604.05623) | arXiv'26 | 2026.04.07 | 1,000 | Dis | Span/Token Localization | ✅ | ✅ | ✅ | Long Captions | ✅ | ❌ |
+| [VLM-DeflectionBench](https://arxiv.org/pdf/2604.12033) | arXiv'26 | 2026.04.13 | 2,775 | Dis & Gen | Acc / Deflection | ✅ | ✅ | ✅ | Retrieval Conflict | ✅ | ❌ |
+| [DO-Bench](https://arxiv.org/pdf/2604.22822) | arXiv'26 | 2026.04.18 | N/A | Dis | PriorRobust/PerceptionAbility | ✅ | ❌ | ❌ | Error Attribution | ✅ | ❌ |
+| [VisualTextTrap](https://arxiv.org/pdf/2604.17375) | arXiv'26 | 2026.04.19 | 6,057 | Dis & Gen | TOIH Level / Acc | ✅ | ✅ | ✅ | Text-Overlay Video | ✅ | ❌ |
+| [Med-StepBench](https://arxiv.org/pdf/2605.10002) | arXiv'26 | 2026.05.11 | 1,000,000+ | Dis | Step Acc / Hallucination | ✅ | ✅ | ✅ | 3D Medical Reasoning | ✅ | ❌ |
+| [HalluCXR](https://arxiv.org/pdf/2605.20469) | arXiv'26 | 2026.05.19 | 15,408 | Gen | F1 / Hallucination Rate | ✅ | ✅ | ❌ | Chest Radiographs | ❌ | ❌ |
+| [MM-Snowball](https://arxiv.org/pdf/2606.00622) | arXiv'26 | 2026.05.30 | N/A | Dis & Gen | Snowballing Rate | ✅ | ✅ | ✅ | Multi-Turn Dialogue | ❌ | ❌ |
+| [ChronoPhyBench](https://arxiv.org/pdf/2606.07962) | arXiv'26 | 2026.06.06 | 10,000+ | Dis | Acc / Hallucination Rate | ✅ | ✅ | ✅ | Physical Dynamics | ✅ | ❌ |
+| [ClinHallu](https://arxiv.org/pdf/2606.14697) | arXiv'26 | 2026.06.12 | 7,031 | Dis | Stage-Wise HR | ✅ | ✅ | ✅ | Medical Reasoning | ❌ | ❌ |
+| [MotionHalluc](https://arxiv.org/pdf/2606.23061) | arXiv'26 | 2026.06.22 | 1,540 | Dis & Gen | Acc / Hallucination Rate | ❌ | ❌ | ✅ | Video Motion | ✅ | ❌ |
+| [GI Hallucination Detection](https://arxiv.org/pdf/2606.24115) | arXiv'26 | 2026.06.23 | 4,392 | Dis | AUC | ✅ | ✅ | ❌ | GI Endoscopy | ✅ | ❌ |
+| [MedBench v5](https://arxiv.org/pdf/2606.24155) | arXiv'26 | 2026.06.23 | N/A | Dis & Gen | Process Audit | ✅ | ✅ | ✅ | Clinical Stressors | ❌ | ❌ |
+| [CRISP](https://arxiv.org/pdf/2606.26535) | arXiv'26 | 2026.06.25 | N/A | Dis | Consistency | ❌ | ❌ | ✅ | Spatial Intelligence | ✅ | ❌ |
+| [GAVEL](https://arxiv.org/pdf/2606.26923) | arXiv'26 | 2026.06.25 | N/A | Dis & Gen | Verification/Localization | ✅ | ✅ | ✅ | Grounded Caption Errors | ❌ | ❌ |
+| [HalluAudio](https://aclanthology.org/2026.acl-long.1797/) | **ACL'26** | 2026.07 | 5,000+ | Dis & Gen | Acc / Hallucination Rate | ❌ | ❌ | ❌ | Speech/Sound/Music | ✅ | ❌ |
+| [MissingBench-Verified](https://arxiv.org/pdf/2607.18673) | arXiv'26 | 2026.07.21 | N/A | Dis | Accuracy | ✅ | ✅ | ❌ | Missing Object Parts | ✅ | ❌ |
 
 </details>
 
